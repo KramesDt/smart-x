@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div>
       <nav className='navbar-items'>
-        <h1 className='nav-logo'>SMARTX</h1>
+        <h1 className='nav-logo'>SMART X</h1>
         <ul className='nav-menu'>
           {MenuItems.map((items, index) => {
             return (
