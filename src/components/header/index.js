@@ -7,6 +7,9 @@ const Header = () => {
     <div>
       <nav className='navbar-items'>
         <h1 className='nav-logo'>SMART X</h1>
+        <div className='menu-icons'>
+        <FontAwesomeIcon icon="fa-solid fa-bars" />
+        </div>
         <ul className='nav-menu'>
           {MenuItems.map((items, index) => {
             return (
@@ -16,6 +19,7 @@ const Header = () => {
             )
           })}
         </ul>
+        <a href='./' className='nav-links'>Contact Us</a>
       </nav>
     </div>
   )

@@ -10,25 +10,31 @@ export const MenuItems = [
         cName:"nav-links"
     },
     {
-        title:"Networking",
+        title:"Technology",
         url: "./",
         cName:"nav-links"
     },
     {
-        title:"Web Solutions",
+        title:"Software",
         url: "./",
         cName:"nav-links"
 
     },
     {
-        title:"Learn",
-        url: "./",
-        cName:"nav-links"
-    },
-    {
-        title:"Contact Us",
+        title:"Academy",
         url: "./",
         cName:"nav-links"
 
-    }
+    },
+    {
+        title:"Shop",
+        url: "./",
+        cName:"nav-links"
+    },
+    // {
+    //     title:"Contact Us",
+    //     url: "./",
+    //     cName:"nav-links"
+
+    // }
 ]
