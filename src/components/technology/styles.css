@@ -11,8 +11,9 @@
 
 .text-box {
     background-color: #01041E;
+    padding: 10px;
     height: 600px;
-    color: red;
+    color: white;
     text-align: center;
     justify-content: center;
     display: block;
