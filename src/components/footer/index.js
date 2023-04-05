@@ -1,9 +1,14 @@
 import React from 'react'
+import "./style.css"
 
-const footer = () => {
+const Footer = () => {
   return (
-    <div>footer</div>
+    <div className='footer'>
+      <div>SmartX © 2023</div>
+      <div> 
+      <a href='#' className='link'> Privacy & Legal </a> | <a href='#' className='link'> Privacy Preferences </a></div>
+    </div>
   )
 }
 
-export default footer
+export default Footer

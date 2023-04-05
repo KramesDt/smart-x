@@ -9,6 +9,10 @@
     background: linear-gradient(to right bottom, #01041E, #01041E);
 }
 
+.about-img{
+    height: 100%;
+}
+
 .text-box {
     background-color: #01041E;
     padding: 10px;
