@@ -1,3 +1,7 @@
+.about-box {
+    height: 100vh;
+}
+
 .float {
     width: 50%;
     float: left;
@@ -5,14 +9,18 @@
 }
 
 .image-box {
-    height: 600px;
+    height: 100%;
     background: linear-gradient(to right bottom, #b9bbc7, #01041E);
     overflow: hidden;
 }
 
+.about-img {
+    display: hidden;
+}
+
 .text-box {
     background-color: #01041E;
-    height: 600px;
+    height: 100%;
     color: white;
     text-align: center; 
     justify-content: center;
@@ -20,5 +28,5 @@
 }
 
 .some-text {
-    margin-top: 14rem;
+    margin-top: 40%;
 }
