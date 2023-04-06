@@ -45,3 +45,9 @@
     padding: 2px 10px;
     border-radius: 100px;
 }
+
+.extra{
+    padding: 10px 25px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}

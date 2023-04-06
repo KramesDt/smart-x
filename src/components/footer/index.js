@@ -4,7 +4,7 @@ import "./style.css"
 const Footer = () => {
   return (
     <div className='footer'>
-      <div>SmartX © 2023</div>
+      <div className='smart'>SmartX © 2023</div>
       <div> 
       <a href='#' className='link'> Privacy & Legal </a> | <a href='#' className='link'> Privacy Preferences </a></div>
     </div>
