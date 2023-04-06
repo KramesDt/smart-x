@@ -1,0 +1,6 @@
+.contact-box{
+    height: 90vh;
+    background: linear-gradient(to bottom, #1e011570, #01041E) ,url('https://api.starlink.com/public-files/Premium_Module_05.jpg');
+    background-position: center;
+    background-size: cover;
+}
