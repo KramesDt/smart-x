@@ -8,7 +8,7 @@
 }
 
 .vertical-line{
-    padding-top: 20px;
+    /* position: relative; */
     margin-left: 50%;
     left: 50%;
     top: 10%;
