@@ -5,8 +5,12 @@
     justify-content: space-between;
     background: #01041E;
     color: white;
-    font-size: small;
+    font-size: 11px;
     padding: 0px 20px;
+}
+
+.smart{
+    color: gray;
 }
 
 .link{

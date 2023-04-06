@@ -10,8 +10,9 @@ const Home = () => {
         <div className='hero-text'>
           <h1 className='hero-text-main'>SMARTX Entreprise</h1>
           <h1 className='hero-text-sub'>Redefining Excellence Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation  </h1>
-          <div className='get-started'>
-            <p>Get Stared <input className='home-input' type='text' name ='email' placeholder='email' /></p> 
+          <div className='form'>
+            <input name='email' type='email' placeholder='EMAIL' className='extra' />
+            <button type="submit" className='button'>SIGN UP</button>
           </div>
         </div>
         

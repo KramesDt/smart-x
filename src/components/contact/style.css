@@ -3,4 +3,48 @@
     background: linear-gradient(to bottom, #1e011570, #01041E) ,url('https://api.starlink.com/public-files/Premium_Module_05.jpg');
     background-position: center;
     background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.vertical-line{
+    padding-top: 20px;
+    margin-left: 50%;
+    left: 50%;
+    top: 10%;
+    border-left: 1.5px solid white;
+    height: 250px;
+}
+
+.contact-form{
+    position: relative;
+    top: 10%;
+}
+
+.interest{
+    font-size: small;
+    padding: 10px 0px;
+}
+
+.input{
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: rgb(87, 98, 109);
+    border: 1px solid #ddd;
+    color: white;
+}
+
+.clicking{
+    font-size: 10px;
+    padding: 10px 0;
+    color: gray;
+}
+
+a{
+    color: white;
 }
