@@ -4,6 +4,7 @@ import './style.css'
 const Contact = () => {
     return (
         <div className='contact-box'>
+            <div style={{height: '50px'}}></div>
             <div className='vertical-line'></div>
             <div className='contact-form'>
                 <p className='interest'>Interested in staying up to date with SmartX?</p>
