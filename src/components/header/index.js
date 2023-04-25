@@ -1,7 +1,7 @@
 import React from 'react'
 import { MenuItems } from './menuItems'
 import "./styles.css"
-import { FaBars, FaBeer } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 
 const Header = () => {
   return (
