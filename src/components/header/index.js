@@ -1,6 +1,7 @@
 import React from 'react'
 import { MenuItems } from './menuItems'
 import "./styles.css"
+import { FaBars, FaBeer } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -20,6 +21,7 @@ const Header = () => {
           })}
         </ul>
         <a href='./' className='nav-links'>Contact Us</a>
+        <FaBars className='header-menu' style={{fontSize: "20px"}}/>
       </nav>
     </div>
   )

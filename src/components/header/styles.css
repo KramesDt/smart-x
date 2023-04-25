@@ -15,9 +15,27 @@
 }
 .nav-links{
     color: white;
-
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1rem;
+}
+
+.header-menu{
+    display: none;
+}
+
+@media (max-width: 760px) {
+    .nav-menu{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .header-menu{
+        display: flex;
+    }
+    .navbar-items{
+        padding: 2rem 2rem;
+    }
 }
