@@ -1,6 +1,7 @@
 import React from 'react'
 import { MenuItems } from './menuItems'
 import "./styles.css"
+import { FaBars } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -8,7 +9,6 @@ const Header = () => {
       <nav className='navbar-items'>
         <h1 className='nav-logo'>SMART X</h1>
         <div className='menu-icons'>
-        {/* <FontAwesomeIcon icon="fa-solid fa-bars" /> */}
         </div>
         <ul className='nav-menu'>
           {MenuItems.map((items, index) => {
@@ -19,7 +19,8 @@ const Header = () => {
             )
           })}
         </ul>
-        <a href='./' className='nav-links'>Contact Us</a>
+        <a href='./' className='contact-link'>Contact Us</a>
+        <FaBars className='header-menu' style={{fontSize: "20px"}}/>
       </nav>
     </div>
   )

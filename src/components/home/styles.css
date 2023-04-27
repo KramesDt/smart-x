@@ -1,7 +1,12 @@
 .hero-section {
-    position: relative;
-    background:  linear-gradient(to right bottom,#01041E,#01041E  );
-    overflow-y:hidden;
+    /* position: relative; */
+    height: 90vh;
+    background: linear-gradient(to bottom, #04011ee5, #01041e81) ,url('https://images.unsplash.com/photo-1643330683233-ff2ac89b002c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    /* overflow-y:hidden; */
 }
 
 .hero {
@@ -13,9 +18,12 @@
 
 
 .hero-text {
+    text-align: center;
+    margin-top: 50px;
     position: absolute;
     top: 15%;
-    /* left: 30%; */
+    left: 10%;
+    right: 10%;
     text-align: center;
 }
 
@@ -26,8 +34,9 @@
 }
 
 .hero-text-sub {
+    margin-top: 20px;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .get-started {
@@ -44,6 +53,10 @@
 .home-input {
     padding: 2px 10px;
     border-radius: 100px;
+}
+
+.form-extra{
+    margin-top: 30%;
 }
 
 .extra{
